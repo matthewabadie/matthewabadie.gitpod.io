@@ -58,7 +58,10 @@ $(function () {
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
-    createCollectable("coinTwo", 200, 170, 6, 0.7);
+    createCollectable("gem", 200, 170, 6, 0.7);
+    createCollectable("gemBlue", 830, 500, 6, 0.7);
+    createCollectable("gemLightBlue", 350, 600, 6, 0.7);
+    createCollectable("gemOrange", 800, 200, 6, 0.7);
 
     // TODO 3
     // Create cannons
@@ -69,6 +72,8 @@ $(function () {
     createCannon("right", 400, 1500);
     createCannon("right", 650, 1500);
     createCannon("left", 200, 1600);
+    createCannon("top", 450, 1600);
+
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
